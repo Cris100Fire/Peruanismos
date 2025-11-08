@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #f3e5c0;
   color: #4a2c2a;
@@ -47,6 +50,17 @@ section.dict {
   color: #f9f4ec;
   font-family: "Merriweather", serif;
 }
+/* .hero {
+  min-height: 350px;
+  background: linear-gradient(rgba(143, 54, 36, 0.9), rgba(143, 54, 36, 0.9)),
+    url("imgs/calles.jpg") center/cover no-repeat;
+  color: #f9f4ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+} */
 
 .hero-content {
   z-index: 2;
@@ -192,7 +206,6 @@ article::after {
 }
 
 .aside-info {
-  width: 80%;
   background-color: #f3e8d2;
   border-left: 4px solid #8b3a2a;
   border-radius: 12px;
@@ -212,6 +225,10 @@ article::after {
   border-radius: 8px;
   margin-bottom: 15px;
   font-size: 1.2em;
+}
+
+.manya {
+  height: 230px;
 }
 
 footer {
@@ -246,10 +263,28 @@ footer::before {
   }
 
   .dict {
-    margin-left: 30px;
+    margin-left: 20px;
     margin-bottom: 10px;
   }
   .aside-info {
     margin: 0 30px 30px 30px;
+  }
+  article {
+    width: 95%;
+  }
+  .ampay {
+    height: 200px;
+  }
+  .manya {
+    height: 260px;
+  }
+  .pituco {
+    height: 180px;
+  }
+  article .text {
+    width: 62%;
+  }
+  .aside-info {
+    width: 91%;
   }
 }
