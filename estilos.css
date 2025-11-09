@@ -14,10 +14,8 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-position: center;
   background-image: url("imgs/textura.jpg");
   opacity: 0.07;
-  z-index: -1;
 }
 
 figure.logo {
@@ -54,17 +52,6 @@ section.dict {
   color: #f9f4ec;
   font-family: "Merriweather", serif;
 }
-/* .hero {
-  min-height: 350px;
-  background: linear-gradient(rgba(143, 54, 36, 0.9), rgba(143, 54, 36, 0.9)),
-    url("imgs/calles.jpg") center/cover no-repeat;
-  color: #f9f4ec;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 0 1rem;
-} */
 
 .hero-content {
   z-index: 2;
@@ -273,6 +260,10 @@ footer::before {
   }
   article {
     width: 95%;
+    height: 180px;
+  }
+  article header {
+    gap: 20px;
   }
   .ampay {
     height: 200px;
@@ -283,9 +274,14 @@ footer::before {
   .pituco {
     height: 200px;
   }
-  .queti {
-    height: 180px;
+  .jato {
+    height: 280px;
   }
+  .guachiman .text,
+  .huachafo .text {
+    left: 130px;
+  }
+
   article .text {
     width: 62%;
     font-size: 16px;
